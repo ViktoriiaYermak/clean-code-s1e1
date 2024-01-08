@@ -70,8 +70,7 @@ button {
 }
 
 /* Heading */
-h1,
-h2 {
+.main-info__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -137,13 +136,13 @@ h2 {
   width: 226px;
 }
 
-.btn-delete img {
+.btn-delete .main-info__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn-delete img:hover {
+.btn-delete .main-info__img:hover {
   transform: rotateZ(0);
 }
 
@@ -163,6 +162,6 @@ ul li .task-input {
   width: 224px;
 }
 
-.edit-tasks label {
+.edit-tasks .task-name {
   display: none;
 }
