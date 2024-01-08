@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.detail-info-img {
+.detail-info__img {
   width: 100%;
 }
 
-.detail-info-link {
+.detail-info__link {
   font-family: fantasy, cursive;
 }
 
@@ -32,13 +32,13 @@
   margin: 0 auto 0;
 }
 
-.new-task-input {
+.new-task__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.main-info-new-task {
+.main-info__new-task {
   display: flex;
 }
 
@@ -108,7 +108,7 @@ h2 {
 }
 
 /* Task list */
-.list-item-tasks {
+.list-item__tasks {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -118,22 +118,22 @@ h2 {
   align-items: center;
 }
 
-.list-item-tasks > * {
+.list-item__tasks > * {
   vertical-align: middle;
 }
 
-.list-item-tasks > .checkbox-input {
+.list-item__tasks > .checkbox-input {
   margin: 0 10px;
 }
 
-.list-item-tasks > .task-name {
+.list-item__tasks > .task-name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.list-item-tasks > .task-input {
+.list-item__tasks > .task-input {
   width: 226px;
 }
 
